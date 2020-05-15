@@ -1,0 +1,36 @@
+:host {
+  .title {
+    text-align: center;
+  }
+  .portals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .portal {
+    position: relative;
+    width: 200px;
+    padding: 20px;
+    img {
+      max-width: 100%;
+      width: 200px;
+    }
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        color: #2EC0F9;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 28px;
+        font-weight: bold;
+        text-shadow: 0 2px 5px #222;
+      }
+    }
+  }
+}

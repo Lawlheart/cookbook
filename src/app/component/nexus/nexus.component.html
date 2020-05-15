@@ -1,0 +1,12 @@
+<div id="nexus">
+  <h1 class="text-center text-lg p-4 text-green-400">Welcome to the Nexus</h1>
+  <div class="portals">
+    <a class="portal"  [routerLink]="[link.route]" *ngFor="let link of links">
+      <img src="assets/portal.png" alt="">
+      <div class="content">
+        <p>{{ link.text }}</p>
+      </div>
+    </a>
+  </div>
+</div>
+
